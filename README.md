@@ -15,8 +15,8 @@ npm run serve
 ```
 or
 ```
-    pnpm install
-    pnpm run serve
+pnpm install
+pnpm run serve
 ```
 
 ## backend demo
