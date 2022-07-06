@@ -27,7 +27,23 @@
       </div>
 
       <v-spacer></v-spacer>
+      <router-link :to="{path:'login'}">
+      <v-btn
+        text
+      >
+        <span class="mr-2">Login</span>
 
+      </v-btn>
+      </router-link>
+
+      <router-link :to="{path:'/'}">
+      <v-btn
+        text
+      >
+        <span class="mr-2">Home</span>
+
+      </v-btn>
+      </router-link>
       <v-btn
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
         target="_blank"
